@@ -6,20 +6,87 @@
 /* ----- Fonts */
 /* ----**** Mixins *****---- */
 /* ----**** Layout *****---- */
+/* ----**** HTML *****---- */
+html.html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /* ----**** Body *****---- */
+body.body {
+  font-size: 1.8rem;
+}
+
 /* ----**** Main *****---- */
 /* ----**** Header *****---- */
+header.header {
+  min-height: 520px;
+  background-image: url(/images/mobile/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 /* ----**** Section *****---- */
+section.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+  position: relative;
+}
+
 /* ----**** Div *****---- */
+div.header-info {
+  margin-top: 50px;
+  text-align: center;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Utilities *****---- */
 /* ----**** Title *****---- */
+h1.header-info__title {
+  font-family: "Fraunces", serif;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 45px;
+}
+
 /* ----**** Anchor *****---- */
 /* ----**** Pgraphs *****---- */
 /* ----**** Image *****---- */
+img.header__container-logo--logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 /* ----**** Components *****---- */
 /* ----**** Nav *****---- */
 /* ----**** List *****---- */
+details.nav {
+  position: absolute;
+  right: 30px;
+}
+
+summary.nav__summary {
+  list-style: none;
+  width: 25px;
+}
+
+li.nav-ul__item {
+  list-style: none;
+}
+
 /* ----**** Button *****---- */
 /* ----**** Form *****---- */
 /* ----**** Media queries *****---- */
