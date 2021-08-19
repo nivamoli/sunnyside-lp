@@ -21,9 +21,14 @@ html.html {
 /* ----**** Body *****---- */
 body.body {
   font-size: 1.8rem;
+  font-family: "Barlow", sans-serif;
 }
 
 /* ----**** Main *****---- */
+main.main {
+  text-align: center;
+}
+
 /* ----**** Header *****---- */
 header.header {
   min-height: 520px;
@@ -50,6 +55,16 @@ div.header-info {
   text-align: center;
 }
 
+div.main__image {
+  height: 320px;
+  background: url(/images/mobile/image-transform.jpg);
+  background-size: cover;
+}
+
+div.main__info {
+  padding: 70px 20px;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Utilities *****---- */
 /* ----**** Title *****---- */
@@ -61,8 +76,28 @@ h1.header-info__title {
   margin-bottom: 45px;
 }
 
+h2.main__info--title {
+  font-family: "Fraunces", serif;
+  font-size: 3.3rem;
+  color: #23303e;
+}
+
 /* ----**** Anchor *****---- */
+a.main__info--link {
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  color: #23303e;
+  text-decoration: none;
+  border-bottom: 2px solid #fad400;
+}
+
 /* ----**** Pgraphs *****---- */
+p.main__info--pgraph {
+  margin: 35px 0;
+  color: #818498;
+  line-height: 30px;
+}
+
 /* ----**** Image *****---- */
 img.header__container-logo--logo {
   -ms-flex-item-align: center;
