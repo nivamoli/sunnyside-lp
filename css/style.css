@@ -25,10 +25,6 @@ body.body {
 }
 
 /* ----**** Main *****---- */
-main.main {
-  text-align: center;
-}
-
 /* ----**** Header *****---- */
 header.header {
   min-height: 520px;
@@ -63,6 +59,13 @@ div.main__image {
 
 div.main__info {
   padding: 70px 20px;
+  text-align: center;
+}
+
+div.secondary-info__image {
+  height: 320px;
+  background: url(/images/mobile/image-stand-out.jpg);
+  background-size: cover;
 }
 
 /* ----**** Footer *****---- */
@@ -91,11 +94,19 @@ a.main__info--link {
   border-bottom: 2px solid #fad400;
 }
 
+a.main__info--link-two {
+  border-bottom: 3px solid rgba(254, 120, 103, 0.5);
+}
+
 /* ----**** Pgraphs *****---- */
 p.main__info--pgraph {
   margin: 35px 0;
   color: #818498;
   line-height: 30px;
+}
+
+p.main__info--pgraph-two {
+  padding: 0 5px;
 }
 
 /* ----**** Image *****---- */
