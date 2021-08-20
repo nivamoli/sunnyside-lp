@@ -45,6 +45,28 @@ section.header-container {
   position: relative;
 }
 
+section.graphic-design {
+  height: 700px;
+  background: url(/images/mobile/image-graphic-design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.graphic-design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center;
+  padding: 0 20px;
+}
+
 /* ----**** Div *****---- */
 div.header-info {
   margin-top: 50px;
@@ -71,8 +93,11 @@ div.secondary-info__image {
 /* ----**** Footer *****---- */
 /* ----**** Utilities *****---- */
 /* ----**** Title *****---- */
-h1.header-info__title {
+h1, h2, h3, h4 h5, h6 {
   font-family: "Fraunces", serif;
+}
+
+h1.header-info__title {
   color: #FFF;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -80,9 +105,12 @@ h1.header-info__title {
 }
 
 h2.main__info--title {
-  font-family: "Fraunces", serif;
   font-size: 3.3rem;
   color: #23303e;
+}
+
+h2.graphic__design--title {
+  color: #25564b;
 }
 
 /* ----**** Anchor *****---- */
@@ -107,6 +135,18 @@ p.main__info--pgraph {
 
 p.main__info--pgraph-two {
   padding: 0 5px;
+}
+
+p.graphic__design--pgraph {
+  margin-top: 30px;
+  color: #25564b;
+  line-height: 30px;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+p.graphic__design--pgraph-photography {
+  padding-bottom: 0;
 }
 
 /* ----**** Image *****---- */
