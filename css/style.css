@@ -67,6 +67,13 @@ section.graphic-design {
   padding: 0 20px;
 }
 
+section.photography {
+  background: url(/images/mobile/image-photography.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -30px;
+}
+
 /* ----**** Div *****---- */
 div.header-info {
   margin-top: 50px;
@@ -143,10 +150,6 @@ p.graphic__design--pgraph {
   line-height: 30px;
   font-weight: 500;
   padding-bottom: 50px;
-}
-
-p.graphic__design--pgraph-photography {
-  padding-bottom: 0;
 }
 
 /* ----**** Image *****---- */
